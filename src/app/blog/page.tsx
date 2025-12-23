@@ -130,8 +130,8 @@ export default function BlogPage() {
                   </p>
                   
                   <div className="flex justify-between items-center text-sm text-gray-500 mb-4">
-                    <span>✍️ {article.author}</span>
-                    <span>📅 {new Date(article.date).toLocaleDateString('id-ID', {
+                    <span>{article.author}</span>
+                    <span>{new Date(article.date).toLocaleDateString('id-ID', {
                       day: 'numeric',
                       month: 'long',
                       year: 'numeric'

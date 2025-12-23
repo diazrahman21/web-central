@@ -95,7 +95,7 @@ export default function AdminPage() {
                     : "text-gray-600 hover:text-gray-800"
                 }`}
               >
-                📝 Artikel
+                Artikel
               </button>
               <button
                 onClick={() => setActiveTab("testimonials")}
@@ -105,7 +105,7 @@ export default function AdminPage() {
                     : "text-gray-600 hover:text-gray-800"
                 }`}
               >
-                💬 Testimoni
+                Testimoni
               </button>
               <button
                 onClick={() => setActiveTab("portfolio")}
@@ -115,7 +115,7 @@ export default function AdminPage() {
                     : "text-gray-600 hover:text-gray-800"
                 }`}
               >
-                🏢 Portfolio Klien
+                Portfolio Klien
               </button>
               <button
                 onClick={() => setActiveTab("seo")}
@@ -125,7 +125,7 @@ export default function AdminPage() {
                     : "text-gray-600 hover:text-gray-800"
                 }`}
               >
-                🔍 SEO
+                SEO
               </button>
             </div>
           </div>

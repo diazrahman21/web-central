@@ -198,11 +198,11 @@ export default function TestimonialManagement() {
               onChange={(e) => setFormData({ ...formData, rating: parseInt(e.target.value) })}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             >
-              <option value={5}>⭐⭐⭐⭐⭐ (5 Bintang)</option>
-              <option value={4}>⭐⭐⭐⭐ (4 Bintang)</option>
-              <option value={3}>⭐⭐⭐ (3 Bintang)</option>
-              <option value={2}>⭐⭐ (2 Bintang)</option>
-              <option value={1}>⭐ (1 Bintang)</option>
+              <option value={5}>5 Bintang</option>
+              <option value={4}>4 Bintang</option>
+              <option value={3}>3 Bintang</option>
+              <option value={2}>2 Bintang</option>
+              <option value={1}>1 Bintang</option>
             </select>
           </div>
 
@@ -251,8 +251,8 @@ export default function TestimonialManagement() {
                     {testimonial.position} - {testimonial.company}
                   </p>
                   <p className="text-gray-700 mb-2 italic">&quot;{testimonial.message}&quot;</p>
-                  <div className="text-yellow-500">
-                    {"⭐".repeat(testimonial.rating)}
+                  <div className="text-yellow-500 font-semibold">
+                    Rating: {testimonial.rating}/5
                   </div>
                 </div>
                 <div className="flex gap-2 ml-4">

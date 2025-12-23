@@ -1,6 +1,14 @@
-import Link from "next/link";
+"use client";
 
 export default function Footer() {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
@@ -16,24 +24,40 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Menu</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors">
+                <a 
+                  href="#home" 
+                  onClick={(e) => handleScroll(e, 'home')}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Beranda
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white transition-colors">
-                  Tentang Kami
-                </Link>
+                <a 
+                  href="#about" 
+                  onClick={(e) => handleScroll(e, 'about')}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Tentang
+                </a>
               </li>
               <li>
-                <Link href="/services" className="text-gray-400 hover:text-white transition-colors">
+                <a 
+                  href="#services" 
+                  onClick={(e) => handleScroll(e, 'services')}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Layanan
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+                <a 
+                  href="#contact" 
+                  onClick={(e) => handleScroll(e, 'contact')}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Kontak
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

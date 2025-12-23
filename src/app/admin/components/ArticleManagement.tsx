@@ -300,9 +300,9 @@ export default function ArticleManagement() {
                   </div>
                   <p className="text-gray-600 text-sm mb-2">{article.excerpt}</p>
                   <div className="flex gap-4 text-xs text-gray-500">
-                    <span>📅 {article.date}</span>
-                    <span>✍️ {article.author}</span>
-                    <span>📁 {article.category}</span>
+                    <span>{article.date}</span>
+                    <span>{article.author}</span>
+                    <span>{article.category}</span>
                   </div>
                 </div>
                 <div className="flex gap-2 ml-4">
