@@ -4,15 +4,25 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section id="home" className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+      <section id="home" className="relative py-20 min-h-[600px] flex items-center">
+        {/* Background Image - Replace this URL with your image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop" 
+            alt="Background" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/80 to-primary-800/80"></div>
+        </div>
+
+        {/* Content */}
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-3xl mx-auto text-center text-white">
             <h1 className="text-5xl font-bold mb-6">
-              Solusi Bisnis Terpadu untuk Kesuksesan Anda
+              Pendampingan Resmi & Terpercaya untuk Pendirian LSP, LPK, dan Prodi Baru
             </h1>
             <p className="text-xl mb-8">
-              Kami membantu perusahaan mencapai potensi maksimal melalui konsultasi bisnis, 
-              manajemen keuangan, dan strategi pertumbuhan yang terukur.
+            Lebih Cepat Legal. Lebih Siap Operasional. Lebih Pasti Disetujui.
             </p>
             <div className="flex gap-4 justify-center">
               <a
