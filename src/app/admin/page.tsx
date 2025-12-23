@@ -118,7 +118,7 @@ export default function AdminPage() {
               </svg>
               <div>
                 <p className="text-sm text-blue-800 font-semibold mb-1">Mode Demo - Tanpa Database</p>
-                <p className="text-xs text-blue-700">Data disimpan sementara di browser (localStorage). Refresh halaman akan menghapus perubahan.</p>
+                <p className="text-xs text-blue-700">Data disimpan sementara di browser (localStorage).</p>
               </div>
             </div>
           </div>
