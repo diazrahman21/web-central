@@ -14,13 +14,14 @@ export default function AdminPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simple password check (in production, use proper authentication)
-    if (password === "admin123") {
+    // Simple password check using environment variable
+    const correctPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD || "defaultAdminPass2024";
+    if (password === correctPassword) {
       setIsAuthenticated(true);
       setError("");
       localStorage.setItem("adminAuth", "true");
     } else {
-      setError("Password salah! Gunakan: admin123");
+      setError("Password salah!");
     }
   };
 
@@ -73,10 +74,6 @@ export default function AdminPage() {
               >
                 Login ke Admin Panel
               </button>
-              <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                <p className="text-xs text-blue-800 font-medium mb-1">Demo Credentials:</p>
-                <p className="text-sm text-blue-700">Password: <span className="font-mono font-bold">admin123</span></p>
-              </div>
             </form>
           </div>
           <p className="text-center text-sm text-gray-600 mt-6">
