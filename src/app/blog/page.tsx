@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog & Artikel - Central Solusi Bisnis",
-  description: "Artikel dan tips bisnis terbaru dari Central Solusi Bisnis untuk membantu mengembangkan bisnis Anda",
-  keywords: "blog bisnis, artikel bisnis, tips bisnis, berita bisnis, central solusi bisnis",
+  title: "Blog & Artikel - Centra Solusi Bisnis",
+  description: "Artikel dan tips bisnis terbaru dari Centra Solusi Bisnis untuk membantu mengembangkan bisnis Anda",
+  keywords: "blog bisnis, artikel bisnis, tips bisnis, berita bisnis, centra solusi bisnis",
 };
 
 // Demo articles data (in production, fetch from database/API)

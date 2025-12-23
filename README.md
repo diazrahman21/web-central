@@ -1,6 +1,6 @@
-# Central Solusi Bisnis - Professional Business Website
+# Centra Solusi Bisnis - Professional Business Website
 
-Website profile profesional untuk Central Solusi Bisnis dengan fitur SEO management untuk admin.
+Website profile profesional untuk Centra Solusi Bisnis dengan fitur SEO management untuk admin.
 
 ## 🚀 Fitur
 

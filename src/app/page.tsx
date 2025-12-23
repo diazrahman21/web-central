@@ -26,7 +26,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 justify-center">
               <a
-                href="https://wa.me/6281234567890?text=Halo%20Central%20Solusi%20Bisnis%2C%20saya%20ingin%20konsultasi%20mengenai%20layanan%20pendampingan%20LSP%2FLPK%2FProdi%20dan%20jasa%20akuntansi."
+                href="https://wa.me/6281234567890?text=Halo%20Centra%20Solusi%20Bisnis%2C%20saya%20ingin%20konsultasi%20mengenai%20layanan%20pendampingan%20LSP%2FLPK%2FProdi%20dan%20jasa%20akuntansi."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2"
@@ -468,8 +468,8 @@ export default function Home() {
                     </svg>
                     <h3 className="font-bold text-lg">Email</h3>
                   </div>
-                  <p className="text-gray-700">info@centralsolusi.com</p>
-                  <p className="text-gray-700">konsultasi@centralsolusi.com</p>
+                  <p className="text-gray-700">info@centrasolusi.com</p>
+                  <p className="text-gray-700">konsultasi@centrasolusi.com</p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">

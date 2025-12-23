@@ -42,7 +42,7 @@ export default function AdminPage() {
                 </svg>
               </div>
               <h1 className="text-3xl font-bold mb-2 text-gray-800">Admin Panel</h1>
-              <p className="text-gray-600">Central Solusi Bisnis</p>
+              <p className="text-gray-600">Centra Solusi Bisnis</p>
             </div>
             <form onSubmit={handleLogin} className="space-y-4">
               <div>
@@ -80,7 +80,7 @@ export default function AdminPage() {
             </form>
           </div>
           <p className="text-center text-sm text-gray-600 mt-6">
-            © 2025 Central Solusi Bisnis. All rights reserved.
+            © 2025 Centra Solusi Bisnis. All rights reserved.
           </p>
         </div>
       </div>
@@ -96,7 +96,7 @@ export default function AdminPage() {
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
               <div>
                 <h1 className="text-3xl font-bold text-gray-800 mb-1">Admin Panel</h1>
-                <p className="text-gray-600">Kelola konten website Central Solusi Bisnis</p>
+                <p className="text-gray-600">Kelola konten website Centra Solusi Bisnis</p>
               </div>
               <button
                 onClick={handleLogout}

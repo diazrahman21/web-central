@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${article.title} - Central Solusi Bisnis`,
+    title: `${article.title} - Centra Solusi Bisnis`,
     description: article.excerpt,
     keywords: `${article.category}, artikel bisnis, ${article.title.toLowerCase()}`
   };

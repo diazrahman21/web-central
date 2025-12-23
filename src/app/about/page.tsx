@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tentang Kami - Central Solusi Bisnis",
-  description: "Kenali lebih dekat Central Solusi Bisnis, mitra terpercaya untuk solusi bisnis terpadu",
+  title: "Tentang Kami - Centra Solusi Bisnis",
+  description: "Kenali lebih dekat Centra Solusi Bisnis, mitra terpercaya untuk solusi bisnis terpadu",
 };
 
 export default function AboutPage() {

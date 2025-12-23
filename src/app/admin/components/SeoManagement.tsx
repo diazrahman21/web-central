@@ -26,9 +26,9 @@ export default function SeoManagement() {
       keywords: "solusi bisnis, konsultan bisnis, pengembangan bisnis, central solusi bisnis"
     },
     about: {
-      title: "Tentang Kami - Central Solusi Bisnis",
-      description: "Kenali lebih dekat Central Solusi Bisnis, mitra terpercaya untuk solusi bisnis terpadu",
-      keywords: "tentang kami, profil perusahaan, visi misi, central solusi bisnis"
+      title: "Tentang Kami - Centra Solusi Bisnis",
+      description: "Kenali lebih dekat Centra Solusi Bisnis, mitra terpercaya untuk solusi bisnis terpadu",
+      keywords: "tentang kami, profil perusahaan, visi misi, centra solusi bisnis"
     },
     services: {
       title: "Layanan Kami - Central Solusi Bisnis",
@@ -36,13 +36,13 @@ export default function SeoManagement() {
       keywords: "layanan bisnis, konsultasi, manajemen, pelatihan, transformasi digital"
     },
     contact: {
-      title: "Hubungi Kami - Central Solusi Bisnis",
-      description: "Hubungi Central Solusi Bisnis untuk konsultasi bisnis dan informasi lebih lanjut",
+      title: "Hubungi Kami - Centra Solusi Bisnis",
+      description: "Hubungi Centra Solusi Bisnis untuk konsultasi bisnis dan informasi lebih lanjut",
       keywords: "kontak, hubungi kami, alamat, telepon, email"
     },
     blog: {
-      title: "Blog & Artikel - Central Solusi Bisnis",
-      description: "Artikel dan tips bisnis terbaru dari Central Solusi Bisnis",
+      title: "Blog & Artikel - Centra Solusi Bisnis",
+      description: "Artikel dan tips bisnis terbaru dari Centra Solusi Bisnis",
       keywords: "blog, artikel bisnis, tips bisnis, berita bisnis"
     }
   });

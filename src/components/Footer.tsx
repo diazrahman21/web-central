@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Central Solusi Bisnis</h3>
+            <h3 className="text-xl font-bold mb-4">Centra Solusi Bisnis</h3>
             <p className="text-gray-400">
               Mitra terpercaya untuk solusi bisnis terpadu dan pengembangan perusahaan Anda.
             </p>
@@ -78,13 +78,13 @@ export default function Footer() {
               <li>Jl. Contoh No. 123</li>
               <li>Jakarta Selatan, Indonesia</li>
               <li>+62 21 1234 5678</li>
-              <li>info@centralsolusibisnis.com</li>
+              <li>info@centrasolusibisnis.com</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Central Solusi Bisnis. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Centra Solusi Bisnis. All rights reserved.</p>
         </div>
       </div>
     </footer>

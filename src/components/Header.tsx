@@ -35,7 +35,7 @@ export default function Header() {
               alt="CSB Logo" 
               className="h-10 w-10 object-contain"
             />
-            <span className="leading-none">Central Solusi Bisnis</span>
+            <span className="leading-none">Centra Solusi Bisnis</span>
           </Link>
 
           {/* Desktop Menu */}

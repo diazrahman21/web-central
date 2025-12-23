@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Hubungi Kami - Central Solusi Bisnis",
-  description: "Hubungi Central Solusi Bisnis untuk konsultasi bisnis dan informasi lebih lanjut",
+  title: "Hubungi Kami - Centra Solusi Bisnis",
+  description: "Hubungi Centra Solusi Bisnis untuk konsultasi bisnis dan informasi lebih lanjut",
 };
 
 export default function ContactPage() {

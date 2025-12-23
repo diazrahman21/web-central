@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Central Solusi Bisnis - Solusi Bisnis Terpadu",
-  description: "Central Solusi Bisnis menyediakan solusi bisnis terpadu untuk membantu mengembangkan usaha Anda",
-  keywords: "solusi bisnis, konsultan bisnis, pengembangan bisnis, central solusi bisnis",
+  title: "Centra Solusi Bisnis - Solusi Bisnis Terpadu",
+  description: "Centra Solusi Bisnis menyediakan solusi bisnis terpadu untuk membantu mengembangkan usaha Anda",
+  keywords: "solusi bisnis, konsultan bisnis, pengembangan bisnis, centra solusi bisnis",
 };
 
 export default function RootLayout({

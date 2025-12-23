@@ -1,7 +1,7 @@
-# Central Solusi Bisnis - Next.js Website
+# Centra Solusi Bisnis - Next.js Website
 
 ## Project Overview
-Professional business website for Central Solusi Bisnis using Next.js with admin SEO management.
+Professional business website for Centra Solusi Bisnis using Next.js with admin SEO management.
 
 ## Stack
 - Next.js 14 with App Router
@@ -19,6 +19,6 @@ Professional business website for Central Solusi Bisnis using Next.js with admin
 ## Progress Checklist
 - [x] Create copilot-instructions.md file
 - [ ] Scaffold Next.js project
-- [ ] Customize project for Central Solusi Bisnis
+- [ ] Customize project for Centra Solusi Bisnis
 - [ ] Install dependencies and compile
 - [ ] Create and run development server
