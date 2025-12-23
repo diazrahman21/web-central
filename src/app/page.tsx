@@ -51,29 +51,28 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Profil Perusahaan</h3>
                 <p className="text-gray-700 mb-4">
-                  Central Solusi Bisnis adalah perusahaan konsultan bisnis yang berdedikasi untuk membantu perusahaan 
-                  mencapai potensi maksimal mereka. Dengan pengalaman bertahun-tahun dalam industri, kami telah 
-                  membantu ratusan klien mencapai tujuan bisnis mereka.
+                 Centra Solusi Bisnis (CSB) adalah perusahaan startup yang bergerak di bidang pendampingan pendirian Lembaga Sertifikasi Profesi (LSP),
+                 Lembaga Pelatihan Kerja (LPK), serta pembukaan program studi baru untuk universitas dan institusi pendidikan tinggi.
                 </p>
                 <p className="text-gray-700">
-                  Kami percaya bahwa setiap bisnis memiliki tantangan unik, dan solusi yang efektif memerlukan 
-                  pendekatan yang disesuaikan.
+                 Kami menggabungkan keahlian regulasi, akademik, dan manajemen operasional 
+                 untuk memastikan setiap klien siap secara dokumen, sistem, dan implementasi lapangan.
+
                 </p>
               </div>
               <div>
                 <div className="bg-primary-50 p-6 rounded-lg mb-4">
                   <h3 className="text-xl font-bold mb-2 text-primary-800">Visi</h3>
                   <p className="text-gray-700">
-                    Menjadi mitra konsultan bisnis terdepan yang dipercaya dalam memberikan solusi inovatif 
-                    dan berkelanjutan untuk pertumbuhan bisnis di Indonesia.
+                  Menjadi mitra strategis terpercaya dalam pengembangan lembaga sertifikasi dan pendidikan nasional.
                   </p>
                 </div>
                 <div className="bg-primary-50 p-6 rounded-lg">
                   <h3 className="text-xl font-bold mb-2 text-primary-800">Misi</h3>
                   <ul className="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                    <li>Memberikan solusi bisnis yang tepat dan terukur</li>
-                    <li>Mengembangkan strategi bisnis yang inovatif</li>
-                    <li>Membangun kemitraan jangka panjang dengan klien</li>
+                    <li>Menyediakan pendampingan profesional dan terukur</li>
+                    <li>Meningkatkan kualitas SDM melalui sertifikasi dan pendidikan</li>
+                    <li>Mendukung percepatan legalitas lembaga pendidikan</li>
                   </ul>
                 </div>
               </div>
@@ -89,171 +88,115 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4">Layanan Kami</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Solusi bisnis komprehensif yang dirancang khusus untuk kebutuhan perusahaan Anda
+                Layanan profesional Central Solusi Bisnis sesuai KBLI 69201, 69202, dan 70209
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Usaha Jasa Akuntansi & Konsultasi */}
               <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold mb-4 text-primary-700">Konsultasi Bisnis</h3>
-                <p className="text-gray-700 mb-6">
-                  Strategi bisnis yang komprehensif untuk meningkatkan efisiensi dan profitabilitas perusahaan Anda.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Business model development</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Market analysis</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Growth strategy planning</span>
-                  </li>
-                </ul>
+                <div className="mb-6">
+                  <h3 className="text-2xl font-bold mb-2 text-primary-700">Usaha Jasa Akuntansi & Konsultasi</h3>
+                  <p className="text-sm text-gray-500 mb-4">Berbasis KBLI 69201, 69202, dan 70209</p>
+                  <div className="bg-primary-50 p-4 rounded-lg mb-4">
+                    <h4 className="font-bold text-primary-800 mb-2">Deskripsi Produk</h4>
+                    <p className="text-gray-700 text-sm">
+                      Layanan akuntansi, perpajakan, dan konsultasi manajemen untuk UMKM, perusahaan, dan institusi agar tertib administrasi, patuh regulasi, dan siap berkembang.
+                    </p>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-3">Spesifikasi Layanan</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Pembukuan</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Kompilasi Laporan Keuangan</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Manajemen</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Akuntansi Manajemen</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Konsultasi Manajemen</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Perpajakan</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Prosedur yang Disepakati atas Informasi Keuangan</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Jasa Teknologi Informasi (pendukung sistem keuangan)</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
 
+              {/* Usaha Jasa Pendampingan Institusi */}
               <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold mb-4 text-primary-700">Manajemen Keuangan</h3>
-                <p className="text-gray-700 mb-6">
-                  Optimalisasi pengelolaan keuangan perusahaan untuk mencapai stabilitas finansial jangka panjang.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Financial planning</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Cash flow management</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Investment analysis</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold mb-4 text-primary-700">Pelatihan SDM</h3>
-                <p className="text-gray-700 mb-6">
-                  Program pelatihan komprehensif untuk mengembangkan kompetensi karyawan dan meningkatkan produktivitas.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Leadership training</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Technical skills development</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Soft skills development</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold mb-4 text-primary-700">Transformasi Digital</h3>
-                <p className="text-gray-700 mb-6">
-                  Implementasi teknologi modern untuk meningkatkan efisiensi operasional dan daya saing bisnis.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Digital strategy development</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Implementasi sistem ERP</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">E-commerce solutions</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold mb-4 text-primary-700">Manajemen Proyek</h3>
-                <p className="text-gray-700 mb-6">
-                  Layanan manajemen proyek profesional untuk memastikan proyek berjalan sesuai jadwal, anggaran, dan kualitas yang diharapkan.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Project planning dan scheduling</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Resource management</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Risk management</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold mb-4 text-primary-700">Business Intelligence</h3>
-                <p className="text-gray-700 mb-6">
-                  Solusi business intelligence untuk membantu perusahaan membuat keputusan berdasarkan data dan insight yang akurat.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Data analytics</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Dashboard dan reporting</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">Predictive analytics</span>
-                  </li>
-                </ul>
+                <div className="mb-6">
+                  <h3 className="text-2xl font-bold mb-2 text-primary-700">Usaha Jasa Pendampingan Institusi</h3>
+                  <p className="text-sm text-gray-500 mb-4">Fokus pada pengembangan lembaga dan pendidikan</p>
+                  <div className="bg-primary-50 p-4 rounded-lg mb-4">
+                    <h4 className="font-bold text-primary-800 mb-2">Deskripsi Produk</h4>
+                    <p className="text-gray-700 text-sm">
+                      Pendampingan strategis dan teknis bagi lembaga dan institusi pendidikan agar memenuhi regulasi, siap operasional, dan berkelanjutan.
+                    </p>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-3">Spesifikasi Layanan</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Pembuatan Lembaga Sertifikasi Profesi (LSP)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Pembuatan Lembaga Pelatihan Kerja (LPK)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-gray-700 text-sm">Pembuatan & Pembukaan Program Studi Baru</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
