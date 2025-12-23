@@ -26,9 +26,14 @@ export default function Home() {
             </p>
             <div className="flex gap-4 justify-center">
               <a
-                href="#contact"
-                className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+                href="https://wa.me/6281234567890?text=Halo%20Central%20Solusi%20Bisnis%2C%20saya%20ingin%20konsultasi%20mengenai%20layanan%20pendampingan%20LSP%2FLPK%2FProdi%20dan%20jasa%20akuntansi."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2"
               >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
                 Konsultasi Gratis
               </a>
               <a
@@ -212,21 +217,21 @@ export default function Home() {
               <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
                 <div className="text-yellow-500 mb-4 font-semibold">Rating: 5/5</div>
                 <p className="text-gray-700 mb-4 italic">
-                  &quot;Central Solusi Bisnis sangat membantu kami dalam meningkatkan efisiensi operasional perusahaan. Tim yang profesional dan solusi yang tepat sasaran.&quot;
+                  &quot;Pendampingan CSB dalam pendirian LSP kami sangat profesional. Semua dokumen dan sistem tersusun rapi, sehingga proses approval BNSP berjalan lancar. Terima kasih CSB!&quot;
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-semibold">Budi Santoso</p>
-                  <p className="text-sm text-gray-600">CEO - PT Maju Jaya</p>
+                  <p className="font-semibold">Dr. Ahmad Fauzi</p>
+                  <p className="text-sm text-gray-600">Direktur - LSP Industri Manufaktur</p>
                 </div>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
                 <div className="text-yellow-500 mb-4 font-semibold">Rating: 5/5</div>
                 <p className="text-gray-700 mb-4 italic">
-                  &quot;Pelayanan yang luar biasa! Konsultasi keuangan yang diberikan sangat membantu kami dalam mengelola cashflow perusahaan.&quot;
+                  &quot;Layanan akuntansi dan konsultasi perpajakan CSB sangat membantu UMKM kami. Laporan keuangan tertib, pajak terkendali, dan kami jadi lebih fokus pada pengembangan bisnis.&quot;
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-semibold">Sarah Wijaya</p>
-                  <p className="text-sm text-gray-600">Direktur Keuangan - CV Berkah Sejahtera</p>
+                  <p className="font-semibold">Siti Nurhaliza</p>
+                  <p className="text-sm text-gray-600">Owner - CV Digital Kreatif</p>
                 </div>
               </div>
             </div>
@@ -242,30 +247,30 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="mb-4">
-                  <h3 className="text-xl font-bold mb-2">PT Teknologi Maju</h3>
-                  <p className="text-sm text-gray-600">Technology • 2024</p>
+                  <h3 className="text-xl font-bold mb-2">Universitas Bina Nusantara</h3>
+                  <p className="text-sm text-gray-600">Pendidikan • 2024</p>
                 </div>
-                <h4 className="font-semibold text-primary-700 mb-2">Implementasi ERP System</h4>
+                <h4 className="font-semibold text-primary-700 mb-2">Pembukaan Program Studi S1 Akuntansi Digital</h4>
                 <p className="text-gray-700 mb-4">
-                  Implementasi sistem ERP untuk meningkatkan efisiensi operasional dan integrasi data antar departemen.
+                  Pendampingan lengkap dari penyusunan dokumen, kurikulum, hingga proses persetujuan Kemendikbud. Program studi berhasil dibuka dengan 150 mahasiswa angkatan pertama.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Konsultasi Bisnis</span>
-                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Transformasi Digital</span>
+                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Pendampingan Prodi Baru</span>
+                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Konsultasi Akademik</span>
                 </div>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="mb-4">
-                  <h3 className="text-xl font-bold mb-2">CV Retail Sejahtera</h3>
-                  <p className="text-sm text-gray-600">Retail • 2024</p>
+                  <h3 className="text-xl font-bold mb-2">CV Mitra Mandiri</h3>
+                  <p className="text-sm text-gray-600">UMKM • 2024</p>
                 </div>
-                <h4 className="font-semibold text-primary-700 mb-2">Optimasi Manajemen Keuangan</h4>
+                <h4 className="font-semibold text-primary-700 mb-2">Pengelolaan Keuangan & Perpajakan Terintegrasi</h4>
                 <p className="text-gray-700 mb-4">
-                  Program optimalisasi manajemen keuangan dan pelatihan tim finance untuk pengelolaan cashflow yang lebih baik.
+                  Implementasi sistem pembukuan, penyusunan laporan keuangan bulanan, dan konsultasi perpajakan. Perusahaan berhasil meningkatkan efisiensi 40% dan patuh pajak.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Manajemen Keuangan</span>
-                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Pelatihan SDM</span>
+                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Jasa Pembukuan</span>
+                  <span className="bg-primary-100 text-primary-700 text-xs px-2 py-1 rounded">Konsultasi Perpajakan</span>
                 </div>
               </div>
             </div>
@@ -273,14 +278,109 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Blog/Articles Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold mb-4">Artikel & Tips</h2>
+              <p className="text-xl text-gray-600">
+                Informasi terkini seputar LSP, LPK, Program Studi, dan pengelolaan keuangan bisnis
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Article 1 */}
+              <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center">
+                  <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-xs text-gray-500 mb-3">
+                    <span className="bg-primary-100 text-primary-700 px-2 py-1 rounded">Pendampingan Institusi</span>
+                    <span>•</span>
+                    <span>20 Des 2025</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">Panduan Lengkap Mendirikan LSP</h3>
+                  <p className="text-gray-600 text-sm mb-4">
+                    Pelajari langkah-langkah lengkap untuk mendirikan Lembaga Sertifikasi Profesi (LSP) sesuai regulasi BNSP.
+                  </p>
+                  <a href="/blog/panduan-lengkap-mendirikan-lsp" className="text-primary-600 font-semibold text-sm hover:underline">
+                    Baca Selengkapnya →
+                  </a>
+                </div>
+              </div>
+
+              {/* Article 2 */}
+              <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center">
+                  <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-xs text-gray-500 mb-3">
+                    <span className="bg-green-100 text-green-700 px-2 py-1 rounded">Keuangan & Akuntansi</span>
+                    <span>•</span>
+                    <span>18 Des 2025</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">Tips Mengelola Keuangan UMKM</h3>
+                  <p className="text-gray-600 text-sm mb-4">
+                    Pembukuan yang rapi adalah kunci kesuksesan UMKM. Pelajari cara sederhana mengelola keuangan bisnis Anda.
+                  </p>
+                  <a href="/blog/tips-mengelola-keuangan-umkm" className="text-primary-600 font-semibold text-sm hover:underline">
+                    Baca Selengkapnya →
+                  </a>
+                </div>
+              </div>
+
+              {/* Article 3 */}
+              <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center">
+                  <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-xs text-gray-500 mb-3">
+                    <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded">Pendampingan Institusi</span>
+                    <span>•</span>
+                    <span>15 Des 2025</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">Cara Membuka Program Studi Baru</h3>
+                  <p className="text-gray-600 text-sm mb-4">
+                    Panduan praktis membuka program studi baru. Mulai dari penyusunan kurikulum hingga persetujuan Kemendikbud.
+                  </p>
+                  <a href="/blog/cara-membuka-program-studi-baru" className="text-primary-600 font-semibold text-sm hover:underline">
+                    Baca Selengkapnya →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA to Blog */}
+            <div className="text-center mt-12">
+              <a
+                href="/blog"
+                className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+              >
+                Lihat Semua Artikel
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white">
+      <section id="contact" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4">Hubungi Kami</h2>
               <p className="text-xl text-gray-600">
-                Siap membantu mengembangkan bisnis Anda. Hubungi kami untuk konsultasi gratis!
+                Siap mendampingi pendirian LSP, LPK, Program Studi, atau kebutuhan akuntansi bisnis Anda. Konsultasi gratis!
               </p>
             </div>
 

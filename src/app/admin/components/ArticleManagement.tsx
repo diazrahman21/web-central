@@ -18,24 +18,35 @@ export default function ArticleManagement() {
   const [articles, setArticles] = useState<Article[]>([
     {
       id: 1,
-      title: "Tips Meningkatkan Efisiensi Bisnis di Era Digital",
-      slug: "tips-meningkatkan-efisiensi-bisnis",
-      excerpt: "Pelajari strategi efektif untuk meningkatkan efisiensi bisnis Anda menggunakan teknologi digital terkini.",
-      content: "Konten lengkap artikel...",
-      author: "Admin",
-      category: "Bisnis Digital",
+      title: "Panduan Lengkap Mendirikan LSP: Syarat, Proses, dan Tips Sukses",
+      slug: "panduan-lengkap-mendirikan-lsp",
+      excerpt: "Pelajari langkah-langkah lengkap untuk mendirikan Lembaga Sertifikasi Profesi (LSP) sesuai regulasi BNSP. Dari persiapan dokumen hingga approval.",
+      content: "Konten lengkap artikel tentang LSP...",
+      author: "Tim CSB",
+      category: "Pendampingan Institusi",
       date: "2025-12-20",
       published: true
     },
     {
       id: 2,
-      title: "Pentingnya Manajemen Keuangan yang Baik",
-      slug: "pentingnya-manajemen-keuangan",
-      excerpt: "Manajemen keuangan yang baik adalah kunci kesuksesan bisnis jangka panjang.",
-      content: "Konten lengkap artikel...",
-      author: "Admin",
-      category: "Keuangan",
+      title: "Tips Mengelola Keuangan UMKM: Pembukuan Sederhana yang Efektif",
+      slug: "tips-mengelola-keuangan-umkm",
+      excerpt: "Pembukuan yang rapi adalah kunci kesuksesan UMKM. Pelajari cara sederhana mengelola keuangan bisnis Anda dengan benar.",
+      content: "Konten lengkap artikel tentang pembukuan UMKM...",
+      author: "Tim CSB",
+      category: "Keuangan & Akuntansi",
       date: "2025-12-18",
+      published: true
+    },
+    {
+      id: 3,
+      title: "Cara Membuka Program Studi Baru di Perguruan Tinggi",
+      slug: "cara-membuka-program-studi-baru",
+      excerpt: "Panduan praktis untuk membuka program studi baru di universitas. Mulai dari penyusunan kurikulum hingga persetujuan Kemendikbud.",
+      content: "Konten lengkap artikel tentang pembukaan prodi...",
+      author: "Tim CSB",
+      category: "Pendampingan Institusi",
+      date: "2025-12-15",
       published: true
     }
   ]);

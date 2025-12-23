@@ -16,19 +16,19 @@ export default function TestimonialManagement() {
   const [testimonials, setTestimonials] = useState<Testimonial[]>([
     {
       id: 1,
-      name: "Budi Santoso",
-      position: "CEO",
-      company: "PT Maju Jaya",
-      message: "Central Solusi Bisnis sangat membantu kami dalam meningkatkan efisiensi operasional perusahaan. Tim yang profesional dan solusi yang tepat sasaran.",
+      name: "Dr. Ahmad Fauzi",
+      position: "Direktur",
+      company: "LSP Industri Manufaktur",
+      message: "Pendampingan CSB dalam pendirian LSP kami sangat profesional. Semua dokumen dan sistem tersusun rapi, sehingga proses approval BNSP berjalan lancar. Terima kasih CSB!",
       rating: 5,
       published: true
     },
     {
       id: 2,
-      name: "Sarah Wijaya",
-      position: "Direktur Keuangan",
-      company: "CV Berkah Sejahtera",
-      message: "Pelayanan yang luar biasa! Konsultasi keuangan yang diberikan sangat membantu kami dalam mengelola cashflow perusahaan.",
+      name: "Siti Nurhaliza",
+      position: "Owner",
+      company: "CV Digital Kreatif",
+      message: "Layanan akuntansi dan konsultasi perpajakan CSB sangat membantu UMKM kami. Laporan keuangan tertib, pajak terkendali, dan kami jadi lebih fokus pada pengembangan bisnis.",
       rating: 5,
       published: true
     }

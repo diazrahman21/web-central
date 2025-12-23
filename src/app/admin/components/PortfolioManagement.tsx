@@ -17,22 +17,22 @@ export default function PortfolioManagement() {
   const [portfolios, setPortfolios] = useState<Portfolio[]>([
     {
       id: 1,
-      clientName: "PT Teknologi Maju",
-      industry: "Technology",
-      projectTitle: "Implementasi ERP System",
-      description: "Implementasi sistem ERP untuk meningkatkan efisiensi operasional dan integrasi data antar departemen.",
+      clientName: "Universitas Bina Nusantara",
+      industry: "Pendidikan",
+      projectTitle: "Pembukaan Program Studi S1 Akuntansi Digital",
+      description: "Pendampingan lengkap dari penyusunan dokumen, kurikulum, hingga proses persetujuan Kemendikbud. Program studi berhasil dibuka dengan 150 mahasiswa angkatan pertama.",
       year: "2024",
-      services: ["Konsultasi Bisnis", "Transformasi Digital"],
+      services: ["Pendampingan Prodi Baru", "Konsultasi Akademik"],
       published: true
     },
     {
       id: 2,
-      clientName: "CV Retail Sejahtera",
-      industry: "Retail",
-      projectTitle: "Optimasi Manajemen Keuangan",
-      description: "Program optimalisasi manajemen keuangan dan pelatihan tim finance untuk pengelolaan cashflow yang lebih baik.",
+      clientName: "CV Mitra Mandiri",
+      industry: "UMKM",
+      projectTitle: "Pengelolaan Keuangan & Perpajakan Terintegrasi",
+      description: "Implementasi sistem pembukuan, penyusunan laporan keuangan bulanan, dan konsultasi perpajakan. Perusahaan berhasil meningkatkan efisiensi 40% dan patuh pajak.",
       year: "2024",
-      services: ["Manajemen Keuangan", "Pelatihan SDM"],
+      services: ["Jasa Pembukuan", "Konsultasi Perpajakan"],
       published: true
     }
   ]);
@@ -52,12 +52,16 @@ export default function PortfolioManagement() {
   });
 
   const availableServices = [
-    "Konsultasi Bisnis",
-    "Manajemen Keuangan",
-    "Pelatihan SDM",
-    "Transformasi Digital",
-    "Manajemen Proyek",
-    "Business Intelligence"
+    "Jasa Pembukuan",
+    "Jasa Kompilasi Laporan Keuangan",
+    "Jasa Manajemen",
+    "Jasa Akuntansi Manajemen",
+    "Jasa Konsultasi Manajemen",
+    "Konsultasi Perpajakan",
+    "Pembuatan LSP",
+    "Pembuatan LPK",
+    "Pendampingan Prodi Baru",
+    "Konsultasi Akademik"
   ];
 
   const handleEdit = (portfolio: Portfolio) => {
